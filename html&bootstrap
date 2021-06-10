@@ -14,7 +14,7 @@
 
     <!--navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-info">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">TONY STARK</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
                   <a class="nav-link" href="#works">my work</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">contact me</a>
+                  <a class="nav-link" href="#contact">contact me</a>
                 </li>
                 
                 
@@ -85,38 +85,68 @@
 
 
     <!--my work -->
-    <div class="d-flex flex-column flex-md-row justify-content-md-evenly ">
-<div class="card" style="width: 18rem;">
-  <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">port folio website</h5>
-      <p class="card-text">build a website with bootstrap</p>
-      <a href="#" class="btn btn-dark">Go soures <i class="fab fa-github"></i></a>
-    </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">port folio website</h5>
-      <p class="card-text">build a website with bootstrap</p>
-      <a href="#" class="btn btn-dark">Go soures <i class="fab fa-github"></i></a>
-    </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">port folio website</h5>
-      <p class="card-text">build a website with bootstrap</p>
-      <a href="#" class="btn btn-dark">Go soures <i class="fab fa-github"></i></a>
-    </div>
-</div>
+     <h1 class="text-primary text-center">my works</h1>
+    <div class="d-flex flex-column flex-md-row justify-content-md-evenly text-center">
+      <div class="card" style="width: 18rem; ">
+        
+        <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">portfolio website</h5>
+            <p class="card-text">build a website with bootstrap</p>
+            <a href="#" class="btn btn-dark">Go soures <i class="fab fa-github"></i></a>
+          </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">port folio website</h5>
+            <p class="card-text">build a website with bootstrap</p>
+            <a href="#" class="btn btn-dark">Go soures <i class="fab fa-github"></i></a>
+          </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">port folio website</h5>
+            <p class="card-text">build a website with bootstrap</p>
+            <a href="#" class="btn btn-dark">Go soures <i class="fab fa-github"></i></a>
+          </div>
+      </div>
     </div>
   </section>
-  <section>
+
+  <section id="contact" class="mt-4 p-4">
 
 
     <!--contact me -->
 
+
+    <form>
+
+      <div class="mb-3">
+        <h1 class="text-primary text-center">contact form</h1>
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" required class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" required placeholder="kindly enter your feedback "rows="3"></textarea>
+      </div>
+     <button type="submit" class="btn btn-primary">
+       submit
+      </button>
+
+    </form>
+    <h6>
+       <i class="fas fa-envelope-square"></i>
+      selvaarun22400@gmail.com
+    </h6>
+    <button type="link" class="btn btn-outline-info">
+      <a href="https://github.com/selvakumar22400">
+      github
+      <i class="fab fa-github"></i>
+      </a>
+    </button>
 
   </section>
 
