@@ -21,16 +21,38 @@
     background:rgb(50,50,50);
     border-radius:10px;
   }
+  #name{
+    width:200px;
+    border:none;
+    background:transparent;
+    border-bottom:1px solid white;
+    padding:6px;
+    margin-bottom:20px;
+    color:white;
+  }
+  #button{
+    border-radius:20px;
+    padding:10px 20px;
+    border:none;
+    background:blue;
+    color:white;
+    margin-top:20px;
+    margin-left:50px;
+  }
+  a{
+    font-size:15px;
+  }
+
 </style>
 </head>
 
 <body>
   <div class="container">
     <div class="card">
-      <input type="text" placeholder="username"><br>
-      <input type="password" placeholder="password"><br>
+      <input type="text" placeholder="username" id="name"><br>
+      <input type="password" placeholder="password" id="name"><br>
       <a href="#">forget password?</a><br>
-      <input type="submit" value="submit">
+      <input type="submit" value="submit" id="button">
     </div>
   </div>
 </body>
