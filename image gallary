@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>image gallary</title>
+<style>
+img {
+ height:100px;
+ width:150px;
+
+}
+</style>
+]</head>
+
+<body>
+  <div class="container">
+    
+    <div><img src="https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270" alt="image1"></div>
+    <div><img src="" alt="image2"></div>
+    <div><img src="" alt="image3"></div>
+    <div><img src="" alt="image4"></div>
+    <div><img src="" alt="image5"></div>
+    <div><img src="" alt="image6"></div>
+    <div><img src="" alt="image7"></div>
+    <div><img src="" alt="image8"></div>
+    <div><img src="" alt="image9"></div>
+   
+  </div>
+</body>
+</html>
+
+
