@@ -5,38 +5,49 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>image gallary</title>
-<style>
-  body{
-    background:blue;
-  }
-img {
- height:200px;
- width:250px;
-}
-.container{
-  position:absolute;
-  padding:10px;
-  border:1px solid black;
-  margin:10px;
-  background:#16f5c5;
-}
-.box{
-  float:left;
-  margin-top:10px;
-  margin-left:10px;
-  border:1px solid black;
+ <style>
+      body{
+        background:blue;
+      }
+    img {
+    height:200px;
+    width:250px;
+    transition-duration:3s;
+    }
+    .container{
+      position:absolute;
+      padding:10px;
+      border:1px solid black;
+      margin:10px;
+      background:#16f5c5;
+    }
+    .box{
+      float:left;
+      margin-top:10px;
+      margin-left:10px;
+      border:1px solid black;
+      overflow:hidden;
 
-}
-img:hover{
-tansform:scale(1.5);
-}
-</style>
-]</head>
+    }
+   
+    img:hover{
+      transform:scale(1.2);
+      cursor:pointer;
+      opacity:0;
+    }
+    p{
+      text-align: center;
+      font-weight:bold;
+      position:absolute;
+      color:white;
+    }
+ </style>
+</head>
 
 <body>
   <div class="container">
     
-    <div class='box'><img src="https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270" alt="image1"></div>
+    <div class='box'><p>this is leaf</p><img src="https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270" alt="image1"></div>
     <div class='box'><img src="https://images.saymedia-content.com/.image/t_share/MTc0NTE4MDIzMjcxNDkxNTc0/attitude-quotes-and-caption-ideas.jpg" alt="image2"></div>
     <div class='box'><img src="https://www.goalcast.com/wp-content/uploads/2017/11/Creation-of-Article-Images_01_Lebron-James-1068x561.png" alt="image3"></div>
     <div class='box'><img src="https://1.bp.blogspot.com/-VX8OUjk9E4o/XwcoW5iMW9I/AAAAAAAAoMs/aRAi_b9mUws6N99wcxgcoNPfb5vUp35vgCLcBGAsYHQ/s1600/life%2Battitude%2Bquotes.jpg" alt="image4"></div>
@@ -45,6 +56,7 @@ tansform:scale(1.5);
     <div class='box'><img src="https://dogtrainingobedienceschool.com/pic/5824797_full-quotes-to-motivate-employees-to-work-hard-in-hindi-best-motivational-inspirational-quotes-in-hindi-%E0%A4%B8-%E0%A4%B5-%E0%A4%9A-%E0%A4%B0.jpg" alt="image7"></div>
     <div class='box'><img src="https://www.quotespen.com/wp-content/uploads/2021/01/abdul-kalam-good-thoghts.jpg" alt="image8"></div>
     <div class='box'><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/proud-quote-1522094934.png?crop=0.978xw:0.994xh;0.0225xw,0.00636xh&resize=480:*" alt="image9"></div>
+    <div class='box'><img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" alt="image9"></div>
    
   </div>
 </body>
