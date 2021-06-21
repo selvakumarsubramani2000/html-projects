@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>light effect in nav bar</title>
+    <style>
+     body{
+       background:rgb(20,20,20);
+     }
+     .container{
+       top:50%;
+       left:50%;
+       position:absolute;
+       transform:translate(-50%,-50%);
+     }
+     .box{
+      color:blue;
+      height:50px;
+      width:150px;
+      border:1px solid blue;
+      padding:5px;
+      font-size:20px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      margin-top:10px;
+     }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="line"></div><div class="box">home</div>
+      <div class="line"></div><div class="box">prodect</div>
+      <div class="line"></div><div class="box">about us</div>
+      <div class="line"></div><div class="box">contactus</div>
+             
+    </div>
+     
+  </body>
+</html>
