@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sticky nav bar</title>
+    <style>
+
+      body{
+
+      }
+      .container{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:rgb(36, 7, 12);
+      }
+      ul li{
+        color:rgb(73, 239, 245);
+        display:inline;
+        padding:30px;
+        font-size:25px;
+      } 
+      ul li:hover{
+        curser:pointer;
+        color:white;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li>home</li>
+        <li>coures</li>
+        <li>contact us </li>
+        <li>about us</li>
+      </ul>
+      </div>
+
+      <p>JAWA (Czech pronunciation: [java]) is a motorcycle and moped manufacturer founded in Prague, Czechoslovakia in 1929 by František Janeček,[3] who bought the motorcycle division of Wanderer. The name JAWA was established by concatenating the first letters of Janeček and Wanderer.[4] In the past, especially in the 1950s, JAWA was one of the top motorcycle manufacturers and exported its 350 model into over 120 countries.[5] The best known model was the 350 Pérák and in the 1970s the 350 Californian. It appeared in the typical black and red coloring from Californian beaches to New Zealand.[6] After 1990, a significant loss of production occurred. A successor company was formed in 1997 in Týnec nad Sázavou, continuing the name as JAWA Moto.</p>
+
+    
+  </body>
+</html>
