@@ -30,7 +30,7 @@
         justify-content:center;
         margin-top:10px;
         box-shadow:0px 0px 50px 0px dodgerblue;
-     }
+        }
     .line{
       height:35px;
       position:absolute;
@@ -39,37 +39,30 @@
       margin-left:10px;
       z-index:-1;
       transition:linear(200ms);
-   
-
-
-    }
+      }
     .box:hover{
       transform:translatex(20px);
-    }
+      }
    .line:before{
      content:'';
      height:calc(100% - 10px);
      width:calc(100% - 10px);
      position:absolute;
-      border-left:2px solid dodgerblue;
-      margin-top:5px;
-      margin-left:-8px;
-      z-index:-1;
-
-   }
-
-  
-
+     border-left:2px solid dodgerblue;
+     margin-top:5px;
+     margin-left:-8px;
+     z-index:-1;
+     }
      
     </style>
   </head>
   <body>
-  <div class="container">
+   <div class="container">
     <div class="line"></div><div class="box">HOME</div>
     <div class="line"></div><div class="box">PRODUCTS</div>
     <div class="line"></div><div class="box">ABOUT US </div>
     <div class="line"></div><div class="box">CONTACT ME</div>
-  </div>   
+   </div>   
     <script src="script.js"></script>
   </body>
 </html>
