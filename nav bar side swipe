@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>nav bar side swipe</title>
+<style> 
+ *{
+   margin:0;
+       padding:0;
+    }
+    body{
+      
+      background:rgb(42, 181, 212);
+    }
+    .container{
+      height:700px;
+      width:200px;
+      box-sizing:border-box;
+      overflow:hidden;
+       background:rgb(50,50,50,.5);
+       transition-duration:.5s;
+       curser:pointer;
+       padding:100px 0px;
+       margin:0;
+       overflow:hidden;
+       border-top-right-radius:10% 20%;
+       border-bottom-right-radius: 50% 80%;
+       transition:translatx(-100px);
+    }
+    .container:hover{
+      width:500px;
+      background:#fff;
+
+    }
+    .a{
+      display:block;
+      margin:10px 120px;
+      padding:10px 15px;
+      float:right;
+      width:200px;
+      box-sizing:border-box;
+      text-decaration:none;
+      backgrond:dodgerblue;
+      color:#fff;
+      border-radius:5px;
+      border:1px solid dodgerblue;
+      font-size:30p;
+      transition-duration: .5s;
+      text-align:center;
+
+
+
+    }
+   
+
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navication">
+      <a href="#">home</a>
+      <a href="#">products</a>
+      <a href="#">paltfolio</a>
+      <a href="#">about us</a>
+      <a href="#">contact us</a>
+      
+    </div>
+  </div>
+</body>
+</html>
