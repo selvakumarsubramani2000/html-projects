@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>responsive search bar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <style>
+      div.container{
+          top:50%;
+          left:40%;
+          position: absolute;
+        }
+
+      i
+      {
+        font-size:normal;
+        font-family:fontAwesome;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"> 
+     <input type="text" placeholder="search here">
+     <i class="fas fa-search"></i>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
