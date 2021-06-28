@@ -17,7 +17,7 @@
       }
 
      .box{
-        color:rgb(100, 217, 233);
+        color:dodgerblue;
         background:black;
         width:150px;
         height:50px;
