@@ -20,14 +20,21 @@
         color:white;
         background-color:rgb(50,50,50);
         border-radius:50%;
+        left:-60px;
         transition-duration:.5s;
         position:relative;
       }
-      input{
+     input{
         padding:15px;
-        border:none;
+        border:1px solid black;
         border-radius:50px;
-
+        width:15px;
+        transtion-duration:.5s;
+        position:relative;
+      }
+      div.container:hover input,div.container input:focus{
+        width:200px;
+        border-radius:50px;
       }
     </style>
   </head>
