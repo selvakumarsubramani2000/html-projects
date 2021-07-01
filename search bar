@@ -20,21 +20,28 @@
         color:white;
         background-color:rgb(50,50,50);
         border-radius:50%;
+        top:3px;
         left:-60px;
         transition-duration:.5s;
         position:relative;
       }
      input{
         padding:15px;
-        border:1px solid black;
+        border:2px solid black;
         border-radius:50px;
         width:15px;
         transtion-duration:.5s;
         position:relative;
       }
       div.container:hover input,div.container input:focus{
-        width:200px;
+        width:150px;
         border-radius:50px;
+      }
+      div.container:hover input{
+        box-shadow:0 0 15px 0 dodgerblue;
+      }
+      div.container input:focus{
+        box-shadow:0 0 15px 0 dodgerblue;
       }
     </style>
   </head>
