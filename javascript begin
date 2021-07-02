@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>java script sample</title>
+    <script> 
+    console.log("hello world");
+    alert("hello world")
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
