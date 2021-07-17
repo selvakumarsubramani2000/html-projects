@@ -63,6 +63,7 @@
     <div class="line"></div><div class="box">ABOUT US </div>
     <div class="line"></div><div class="box">CONTACT ME</div>
    </div>   
-    <script src="script.js"></script>
+    <script src="script.js">
+   alert("hello your's fedpacks are welcome ,please send your's fedpack"); </script>
   </body>
 </html>
