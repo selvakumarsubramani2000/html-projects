@@ -7,9 +7,6 @@
     function add(num1,num2){
     let sum=num1+num2;
     }
-    
-
-
 //call the function
     add(10,20)
     
