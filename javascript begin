@@ -11,7 +11,9 @@
     add(10,20)
     
     console.log("hello world");
-    alert("hello world")
+    alert("hello world") 
+    
+    
     prompt("what is your name?");
     </script>
   </head>
@@ -23,6 +25,6 @@ File system
 File system is a one of module
 Millions of module are present in the npm(node package manegement)
 Npm Init 
-Marvel characters
+Marvel characteristics
 displayed to random charactors of marvel
 
