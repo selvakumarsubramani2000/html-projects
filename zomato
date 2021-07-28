@@ -16,7 +16,11 @@
   <link rel="stylesheet" href="style.css" />
   
   <style>
- *{
+  
+  
+  
+  
+  *{
   padding: 0;
   margin: 0;
   box-sizing:border-box; /*box model*/
@@ -32,6 +36,9 @@ body{
 button{
   background-color: transparent;
   border:none;
+  }
+  section{
+    margin: 20px 0px;
   }
 
 .navbar{
@@ -55,7 +62,7 @@ button{
   width:100px;
 }
 
-.navbar-button{
+.button-primary{
    background-image: linear-gradient(
     to right,
     #ff512f 0%,
@@ -70,14 +77,30 @@ button{
   cursor:pointer;
   }
 
-  .navbar-button:hover{
+  .button-primary:hover{
     background-position: right center;
   }
 
   @media (min-width:768px) {
+    .hero-container{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    }
     
+    .hero-image{
+      margin-top: 2rem;
+    }
+    .hero-text{
+      font-size:2rem;
+      font-weight:900;
+    }
   }
    @media (min-width:1024px) {
+     .container{
+      max-width:900px;
+      }
+
      .navbar{
        padding: 0px 50px;
      }
@@ -91,13 +114,64 @@ button{
       padding:15px 20px;
       font-weight:bolt;
     }
-  }
-   @media (min-width:1280px) {
+    .hero-text{
+      font-size: 4rem;
+      line-height:4rem;
+    }
+    }
+
+    @media (min-width:1280px) {
+     .container{
+       max-width:1100px;
+      }
     
-  }
- @media (min-width:1536px) {
-    
-  }
+    }
+ @media (min-width:1536px){
+    .container{
+      max-width:1250px;
+      }
+
+    }
+
+.container{
+  width:100%;
+  padding: 0px 15px;
+  margin:0px auto;
+}
+
+.hero-image-container{
+position: relative;
+width:100%;
+}
+
+.hero-image{
+  position: absolute;
+  width:100%;
+  right: auto;
+  left:auto;
+  z-index: 3;
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25)
+}
+.hero-image-shape{
+  position: absolute;
+  right:2px;
+  z-index:2;
+}
+.hero-description{
+  display:flex;
+  flex-direction:column;
+  gab:5px;
+  align-items:flex-start;
+}
+.hero-text{
+font-size: 2rem;
+line-height:2.25rem;
+color:1d3557;
+font-weight:bolt;
+}
+
+
+
 
 
 
@@ -114,11 +188,27 @@ button{
       </div>
       <div class="navbar-nav-items">
         <div class="nav-items">
-         <button class="navbar-button"> Order now</button>
+         <button class="button-primary"> Order Food</button>
         </div>
       </div>
     </nav >
   </header>
+  <main class="container">
+    <section class="hero-container">
+      <div class="hero-image-container">
+        <img src="assets/hero.jpg" alt="hero-image" class="hero-image">
+        <img src="assets/svg/heroShape.svg" alt="hero-image-shape" class="hero-image-shape">
+        <img src="assets/svg/herobgpattren.svg" alt="hero-image-pattren"class="hero-image-pattern">
+      </div>
+      <div  class="hero-description">
+        <h1  class="hero-text">Order Favourite Food From Your Near Resturante</h1>
+       <button class="button-primary">Order now</button>
+
+      </div>
+
+    </section>
+
+  </main>
 </body>
 </html> 
 
