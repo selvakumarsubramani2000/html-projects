@@ -17,9 +17,6 @@
   
   <style>
   
-  
-  
-  
   *{
   padding: 0;
   margin: 0;
@@ -118,6 +115,9 @@ button{
       font-size: 4rem;
       line-height:4rem;
     }
+    .vedio-footage-text{
+      width:70%;
+    }
     }
 
     @media (min-width:1280px) {
@@ -169,11 +169,41 @@ line-height:2.25rem;
 color:1d3557;
 font-weight:bolt;
 }
-
-
-
-
-
+.vedio-footage-container{
+  margin-top:1rem;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width:100%
+}
+.vedio-footage{
+  position: relative;
+}
+.vedio-footage::before{
+    content: "";
+    background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  position: absolute;
+  transform:translate(0.5rem,0.5rem);
+  height:100%;
+  width:100%;
+  z-index:-1;
+}
+.chef-vedio{
+height:100%;
+width:100%;
+}
+.vedio-footage-text{
+  margin:2rem;
+  font-color:#1d3557;
+  font-weight:1.25rem;
+  text-align:center;
+}
 
 
   </style>
@@ -203,10 +233,27 @@ font-weight:bolt;
       <div  class="hero-description">
         <h1  class="hero-text">Order Favourite Food From Your Near Resturante</h1>
        <button class="button-primary">Order now</button>
-
       </div>
+    </section>
+
+    <section class="vedio-footage-container">
+      <div class="vedio-footage">
+        <iframe src="https://player.vimeo.com/video/73347486" width="640"
+        height="360" 
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+        class="chef-vedio">
+        </iframe> 
+      </div>
+      <div class="vedio-footage-text">
+        <p>your food is safely prepared by experiance chef, without compromising the quality and hygiene</p>
+      </div> 
+    </section>
+
+    <section class="food-list-container">
 
     </section>
+
 
   </main>
 </body>
