@@ -17,7 +17,7 @@
   
   <style>
   
-  *{
+ *{
   padding: 0;
   margin: 0;
   box-sizing:border-box; /*box model*/
@@ -92,6 +92,10 @@ button{
       font-size:2rem;
       font-weight:900;
     }
+    .food-menu-card-list{
+      display:flex;
+      flex-direction: row;
+    }
   }
    @media (min-width:1024px) {
      .container{
@@ -163,7 +167,7 @@ width:100%;
   gab:5px;
   align-items:flex-start;
 }
-.hero-text{
+.text-heading{
 font-size: 2rem;
 line-height:2.25rem;
 color:1d3557;
@@ -204,7 +208,36 @@ width:100%;
   font-weight:1.25rem;
   text-align:center;
 }
+.food-list-container{
+  width: 100%;
+}
+.food-menu-card{
+  background-color:white;
+  width: 100%;
+}
+.food-menu-card-image{
+  width:100%;
+  border-radius:6px 6px 0px 0px;
+}
+.food-menu-card-title{
+  font-size:1.25rem;
+  font-weight:700;
+  color:#1d3557;
+  
+}
+.food-menu-card-restaurents{
+  color:  #1d3557;
 
+}
+.food-menu-card-discriptions{
+padding:1rem;
+}
+.food-menu-card-list{
+  margin-top:1rem 0;
+  display: flex;
+  flex-direction: column;
+  gab:1rem;
+}
 
   </style>
 
@@ -231,7 +264,7 @@ width:100%;
         <img src="assets/svg/herobgpattren.svg" alt="hero-image-pattren"class="hero-image-pattern">
       </div>
       <div  class="hero-description">
-        <h1  class="hero-text">Order Favourite Food From Your Near Resturante</h1>
+        <h1  class="text-heading">Order Favourite Food From Your Near Resturante</h1>
        <button class="button-primary">Order now</button>
       </div>
     </section>
@@ -245,15 +278,36 @@ width:100%;
         class="chef-vedio">
         </iframe> 
       </div>
-      <div class="vedio-footage-text">
+       <div class="vedio-footage-text">
         <p>your food is safely prepared by experiance chef, without compromising the quality and hygiene</p>
-      </div> 
+        </div> 
     </section>
 
     <section class="food-list-container">
-
-    </section>
-
+      <h1 class="text-heading">explore our menu</h1>
+      <div class="food-menu-card-list">
+        <div class="food-menu-card">
+          <img src="assets/burger.jpg" alt="burger image" class="food-menu-card-image">
+          <div class="food-menu-card-discriptions">
+            <h4 class="food-menu-card-title"> burgar</h4>
+            <p class="food-menu-card-restaurents">burger king, medonelds, burger place <span style="color: red;">+3</span></p>
+          </div>
+        </div>
+        <div class="food-menu-card">
+          <img src="assets/pizza.jpg" alt="pizza image" class="food-menu-card-image">
+          <div class="food-menu-card-discriptions">
+            <h4 class="food-menu-card-title"> pizza</h4>
+            <p class="food-menu-card-restaurents">burger king, medonelds, burger place <span style="color: red;">+3</span></p>
+          </div>
+        </div><div class="food-menu-card">
+          <img src="assets/iceCream.jpg" alt="ice cream image" class="food-menu-card-image">
+          <div class="food-menu-card-discriptions">
+            <h4 class="food-menu-card-title"> icecream</h4>
+            <p class="food-menu-card-restaurents">burger king, medonelds, burger place <span style="color: red;">+3</span></p>
+          </div>
+        </div>
+      </div>
+    </section
 
   </main>
 </body>
