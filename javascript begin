@@ -28,3 +28,59 @@ Npm Init
 Marvel characteristics
 displayed to random charactors of marv
 
+//conditional statments
+//if else
+//switch
+
+
+
+
+//if conditions
+
+/*
+if(condition<20){
+console.log("true");
+}
+else{
+  console.log("false");
+}
+var condition=40;
+if(condition<20)
+  {
+  console.log("true");
+  }
+else if(condition<30)
+  {
+  console.log("try again");
+  }
+else{
+    console.log("failed");
+  }
+  */
+  
+  
+  
+  
+  
+
+/*switch case
+   var condtion=10;
+   switch (condtion>20){
+     case true:
+       console.log("yay treee");
+       break;
+     
+
+     case false:
+     console.log("ohh no false");
+     break;
+    
+
+     default:
+       console.log("none match");
+       break;
+   }
+   */
+        
+       
+   
