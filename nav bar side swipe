@@ -8,17 +8,17 @@
 <style> 
 *{
    margin:0;
-       padding:0;
-    }
+   padding:0;
+ }
    body{
-      
-      background:rgb(42, 181, 212);
+
+    background:rgb(42, 181, 212);
     }
     .container{
       height:700px;
       width:100px;
       //box-sizing:border-box;
-      overflow:hidden;
+       overflow:hidden;
        background:rgb(50,50,50,.5);
        transition-duration:.5s;
        curser:pointer;
